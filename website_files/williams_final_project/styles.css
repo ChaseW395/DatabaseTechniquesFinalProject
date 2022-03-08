@@ -1,0 +1,193 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: times;
+}
+
+.titlebar {
+	background: #e02424;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+}
+.titlebar h1 {
+	margin: 20px 0 20px 10px;
+}
+.nav ul {
+	margin: 0;
+}
+.nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+	position: relative;
+	font-size: 20pt;
+}
+
+.nav ul li a {
+	color:  white;
+	text-decoration: none;
+}
+
+.body {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+
+}
+
+.bodytitle {
+	text-align: center;
+}
+.body_about {
+	margin: auto;
+	max-width: 100vh;
+	max-height: 100vh;
+	font-size: 15pt;
+}
+
+.body_about p {
+	text-align: center;
+}
+
+.textbox {
+	width: 300px;
+	height: 40px;
+	margin: 0 0 10px 0;
+	font-size: 15pt;
+}
+
+
+.submit {
+	width: 150px;
+	height: 40px;
+	margin: 0;
+	font-size: 15pt;
+}
+form select {
+	margin: 0 0 10px 0;
+	width: 310px;
+	height: 50px;
+}
+
+.body p {
+	font-size: 15pt;
+}
+
+.body p img {
+	height: 300px;
+	width: 600px;
+	margin: 10px 0;
+}
+label {
+	font-size: 15pt;
+}
+
+.shop_item {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: baseline;
+	align-content: center;
+	gap: 20px;
+}
+.shop_item form .amount {
+	width: 40px;
+	height: 20px;
+	font-size: 12pt;
+}
+.shop_item form .shop_submit {
+	width: 40px;
+	height: 25px;
+	font-size: 15;
+}
+.body_admin {
+	align-items: center;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.admin_control {
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 15pt;
+}
+.admin_control th {
+	padding: 0 20px 0 20px;
+}
+.admin_control td {
+	padding: 0 20px 0 20px;
+	text-align: center;
+}
+.deleteUser {
+	width: 80px;
+	height: 40px;
+	font-size: 15pt;
+}
+.description {
+	width: 300px;
+}
+.bodyerror {
+	display: flex;
+	justify-content: center;
+	width: auto;
+	height: auto;
+}
+.error {
+	background-color: yellow;
+	text-align: center;
+	width: 300px;
+	height: 30px;
+}
+.login_error {
+	background: yellow;
+	text-align: center;
+	width: 300px;
+	height: 30px;
+}
+.success {
+	display:  flex;
+	justify-content: center;
+	width: auto;
+	height: auto;
+}
+.success_login_out {
+	background-color: lightgreen;
+	text-align: center;
+}
+.success_update {
+	background-color: lightgreen;
+	text-align: center;
+	height: auto;
+}
+
+.usererror {
+	display:  flex;
+	justify-content: center;
+	width: auto;
+	height: auto;
+}
+.logged_in_error {
+	background-color: yellow;
+	text-align: center;
+	height: auto;
+}
+.order {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	gap: 50px;
+}
+.deleteUserAcc {
+	width: 160px;
+	height: 40px;
+	font-size: 15pt;
+}
