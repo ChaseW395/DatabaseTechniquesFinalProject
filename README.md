@@ -1,5 +1,5 @@
 # DatabaseTechniquesFinalProject
-This is a website I built for my database techniques class.  It includes a website along with a backend database to store information.  I used XAMPP control panel to run this locally (Docker image coming soon).  
+This is a website I built for my database techniques class.  It includes a website along with a backend database to store user information.  I used XAMPP control panel to run this locally (Docker image coming soon).  
 
 
 Admin Credentials:
