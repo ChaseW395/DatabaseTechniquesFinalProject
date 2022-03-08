@@ -4,7 +4,7 @@ This is a website I built for my database techniques class.  It includes a front
 
 Admin Credentials:
 
-admin@admin.com
+admin@admin.com - 
 password
 
 In my project, I had the mysqli_connect.php script outside of htdocs so some edits might be needed to set up the website.
